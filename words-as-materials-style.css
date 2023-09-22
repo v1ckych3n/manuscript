@@ -4,7 +4,7 @@
     font-family: PP Mori;
     font-size: 200px;
 
-    -webkit-text-stroke: 3px;
+    -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: transparent;
 }
@@ -35,7 +35,7 @@ h2 {
 h3 {
     color: black;
 
-    font-family: PT Mono;
+    font-family: PP Mori;
     font-size: 40px;
 
     max-width: 550px;
@@ -73,6 +73,11 @@ ul {
     margin: auto;
 }
 
+article {
+    max-width: 550px;
+    margin: auto;
+}
+
 a {
     color: black;
     background-color: #EAFF01;
@@ -85,5 +90,12 @@ a:hover {
 
 .grid-container {
     display: flex;
-    flex-direction:column;
+    column-gap: 4rem;
+}
+
+.numbers {
+    font-family: PP Eiko;
+    font-size: 150px;
+    text-align: right;
+    width: 5rem;
 }
