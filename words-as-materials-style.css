@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=PT+Mono&display=swap');
 
+#outline{
+    font-family: PT Mono;
+    font-size: 100px;
+}
+
 body{
     color: black;
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1{
     color: black;
+
     font-family: PP Eiko;
-    font-size: 100px;
+    font-size: 250px;
+    line-height: 100px;
 }
 
 h2{
     color: black;
+
     font-family: PP Eiko;
     font-size: 70px;
     line-height: 70px;
@@ -19,7 +30,19 @@ h2{
 
 h3{
     color: black;
+
     font-family: PT Mono;
+    font-size: 40px;
+}
+
+p{
+    color: black;
+
+    font-family: PT Mono;
+    font-size: 14px;
+    line-height: 20px;
+
+    width: 40vw;
 }
 
 blockquote{
@@ -27,11 +50,19 @@ blockquote{
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
+
+    padding-left: 10%;
+    width: 50vw;
 }
 
-p{
+ul{
+    font-family: PP Mori;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+a{
     color: black;
-    font-family: PT Mono;
-    font-size: 14px;
-    line-height: 20px;
+    background-color: #EAFF01;
 }
