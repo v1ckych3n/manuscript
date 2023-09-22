@@ -1,68 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=PT+Mono&display=swap');
 
-#outline{
-    font-family: PT Mono;
-    font-size: 100px;
+#outline {
+    font-family: PP Mori;
+    font-size: 200px;
+
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
 }
 
-body{
+body {
     color: black;
 
     margin-left: 5%;
     margin-right: 5%;
 }
 
-h1{
+h1 {
     color: black;
 
     font-family: PP Eiko;
     font-size: 250px;
-    line-height: 100px;
+    line-height: 0px;
 }
 
-h2{
+h2 {
     color: black;
 
-    font-family: PP Eiko;
+    font-family: PP Mori;
     font-size: 70px;
     line-height: 70px;
 }
 
-h3{
+h3 {
     color: black;
 
     font-family: PT Mono;
     font-size: 40px;
+
+    max-width: 550px;
+    margin: auto;
 }
 
-p{
+p {
     color: black;
 
     font-family: PT Mono;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
 
-    width: 40vw;
+    max-width: 550px;
+    margin: auto;
 }
 
-blockquote{
+blockquote {
     font-family: PP Mori;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
 
-    padding-left: 10%;
-    width: 50vw;
+    padding-left: 35%;
+    max-width: 700px;
 }
 
-ul{
+ul {
     font-family: PP Mori;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
+
+    max-width: 550px;
+    margin: auto;
 }
 
-a{
+a {
     color: black;
     background-color: #EAFF01;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction:column;
 }
