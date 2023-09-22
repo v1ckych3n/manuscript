@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=PT+Mono&display=swap');
+
+body{
+    color: black;
+}
+
+h1{
+    color: black;
+    font-family: PP Eiko;
+    font-size: 100px;
+}
+
+h2{
+    color: black;
+    font-family: PP Eiko;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+h3{
+    color: black;
+    font-family: PT Mono;
+}
+
+blockquote{
+    font-family: PP Mori;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+p{
+    color: black;
+    font-family: PT Mono;
+    font-size: 14px;
+    line-height: 20px;
+}
