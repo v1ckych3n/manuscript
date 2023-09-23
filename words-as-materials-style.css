@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
 #outline {
     font-family: PP Mori;
@@ -56,6 +56,22 @@ h4 {
     padding-top: 1rem;
 }
 
+h4:hover {
+    color: blue;
+}
+
+h5 {
+    color: black;
+    
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h5:hover {
+    color: blue;
+}
+
 p {
     color: black;
 
@@ -81,10 +97,6 @@ em {
     font-style: italic;
 }
 
-strong {
-    font-weight: 800;
-}
-
 ul {
     font-family: PP Mori;
     font-size: 24px;
@@ -107,21 +119,29 @@ header {
 }
 
 .wrapper {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
-
 
 .sidebar {
     position: -webkit-sticky;
     position: sticky;
+    z-index: 100;
     top: 50px;
-    
-    width: 50%;
+
+    width: 35%;
 }
 
 .sticky-list {
     padding-left: 2rem;
     padding-top: 1rem;
+
+    font-weight: 800;
+}
+
+.main {
+    position: relative;
+    top: -500px;
 }
 
 section {
@@ -150,17 +170,18 @@ a:hover {
 .grid-container {
     display: flex;
     column-gap: 4rem;
+    padding-left: 10%;
     padding-top: 2rem;
-    min-width: 550px;
+    min-width: 600px;
     margin: auto;
 }
 
 .grid-container2 {
     display: flex;
     column-gap: 4rem;
-    padding-left: 30%;
+    padding-left: 40%;
     padding-top: 2rem;
-    min-width: 750px;
+    min-width: 800px;
 }
 
 .grid-container-sticky {
