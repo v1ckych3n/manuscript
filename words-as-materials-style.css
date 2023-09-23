@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
-span {
+.outline {
     font-family: PP Mori;
     font-size: 200px;
     font-weight: 600;
@@ -8,6 +8,20 @@ span {
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: transparent;
+}
+
+.accent {
+    font-family: PP Mori;
+    font-size: larger;
+    /* text-transform: uppercase; */
+
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-fill-color: transparent;
+}
+
+.indent {
+    padding-left: 20rem;
 }
 
 body {
@@ -18,8 +32,6 @@ body {
 }
 
 h1 {
-    color: black;
-
     font-family: PP Eiko;
     font-size: 250px;
     font-weight: 500;
@@ -27,58 +39,31 @@ h1 {
 }
 
 h2 {
-    color: black;
-
     font-family: PP Mori;
     font-size: 70px;
     font-weight: 600;
     line-height: 70px;
 
-    padding-top: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     min-width: 1000px;
 }
 
 h3 {
-    color: black;
-
     font-family: PP Mori;
     font-size: 40px;
     font-weight: 600;
-}
 
-h4 {
-    color: black;
-
-    font-family: PP Mori;
-    font-size: 20px;
-    font-weight: 800;
-
-    padding-top: 1rem;
-}
-
-h4:hover {
-    color: blue;
-}
-
-h5 {
-    color: black;
-    
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-h5:hover {
-    color: blue;
+    padding-bottom: 1rem;
 }
 
 p {
-    color: black;
-
     font-family: IBM Plex Mono;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
+
+    padding-bottom: 1rem;
 }
 
 blockquote {
@@ -87,28 +72,60 @@ blockquote {
     font-weight: 600;
     line-height: 28px;
 
-    padding-left: 15%;
-    padding-top: 2rem;
+    padding-left: 20%;
+    padding-top: 1rem;
     padding-bottom: 2rem;
-    min-width: 700px;
+    min-width: 800px;
 }
 
 em {
     font-style: italic;
 }
 
-/* ul { */
+li {
+    padding-bottom:.5rem;
+}
+
+.sticky-list {
+    font-family: PP Mori;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sticky-list:hover {
+    color:blue;
+    font-size: xx-large;
+
+    transition: ease-in-out;
+    transition: 0.3s;
+}
+
+.sub-list {
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 500;
+
+    padding-left: 3rem;
+}
+
+.sub-list:hover {
+    color: blue;
+    font-size: x-large;
+    
+    transition: ease-in-out;
+    transition: 0.3s;
+}
+
+.regular-list {
     font-family: PP Mori;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
 
     padding-left: 20%;
+    padding-bottom: 1rem;
     min-width: 700px;
-}
 
-/* li { */
-    display: list-item;
     list-style-type: square;
     list-style-position: outside;
 }
@@ -130,18 +147,12 @@ header {
     top: 50px;
 
     width: 35%;
-}
-
-/* .sticky-list { */
-    padding-left: 2rem;
-    padding-top: 1rem;
-
-    font-weight: 800;
+    padding-right: 10rem;
 }
 
 .main {
     position: relative;
-    top: -500px;
+    top: -690px;
 }
 
 section {
@@ -160,11 +171,16 @@ footer {
 a {
     color: black;
     background-color: #EAFF01;
+    text-decoration-line: underline;
 }
 
 a:hover {
     color: blue;
     background-color: transparent;
+    text-decoration-line: underline;
+
+    transition: ease-in-out;
+    transition: 0.3s;
 }
 
 .grid-container {
@@ -172,7 +188,7 @@ a:hover {
     column-gap: 4rem;
     padding-left: 10%;
     padding-top: 2rem;
-    min-width: 600px;
+    min-width: 700px;
     margin: auto;
 }
 
@@ -181,7 +197,7 @@ a:hover {
     column-gap: 4rem;
     padding-left: 40%;
     padding-top: 2rem;
-    min-width: 800px;
+    min-width: 900px;
 }
 
 .grid-container-sticky {
