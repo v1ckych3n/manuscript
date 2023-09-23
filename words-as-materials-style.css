@@ -46,7 +46,7 @@ p {
     color: black;
 
     font-family: PT Mono;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
 
     max-width: 550px;
@@ -67,10 +67,10 @@ ul {
     font-family: PP Mori;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 24px;
 
+    padding-left: 40%;
     max-width: 550px;
-    margin: auto;
 }
 
 article {
@@ -91,6 +91,12 @@ a:hover {
 .grid-container {
     display: flex;
     column-gap: 4rem;
+}
+
+.grid-container2 {
+    display: flex;
+    column-gap: 4rem;
+    padding-left: 30%;
 }
 
 .numbers {
