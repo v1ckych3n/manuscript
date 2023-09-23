@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
-#outline {
+span {
     font-family: PP Mori;
     font-size: 200px;
     font-weight: 600;
@@ -97,7 +97,7 @@ em {
     font-style: italic;
 }
 
-ul {
+/* ul { */
     font-family: PP Mori;
     font-size: 24px;
     font-weight: 600;
@@ -107,7 +107,7 @@ ul {
     min-width: 700px;
 }
 
-li {
+/* li { */
     display: list-item;
     list-style-type: square;
     list-style-position: outside;
@@ -132,7 +132,7 @@ header {
     width: 35%;
 }
 
-.sticky-list {
+/* .sticky-list { */
     padding-left: 2rem;
     padding-top: 1rem;
 
