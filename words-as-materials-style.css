@@ -20,6 +20,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.blue {
+    color: blue;
+}
+
 .indent {
     padding-left: 20rem;
 }
@@ -54,6 +58,7 @@ h3 {
     font-size: 40px;
     font-weight: 600;
 
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -131,7 +136,7 @@ li {
 }
 
 header {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
 }
 
@@ -160,7 +165,6 @@ section {
     margin: auto;
 }
 
-
 footer {
     width: 550px;
     margin: auto;
@@ -187,17 +191,18 @@ a:hover {
     display: flex;
     column-gap: 4rem;
     padding-left: 10%;
-    padding-top: 2rem;
     min-width: 700px;
-    margin: auto;
 }
 
 .grid-container2 {
     display: flex;
     column-gap: 4rem;
     padding-left: 40%;
-    padding-top: 2rem;
     min-width: 900px;
+}
+
+.grid-item {
+    max-width: 550px;
 }
 
 .grid-container-sticky {
@@ -210,3 +215,4 @@ a:hover {
     text-align: right;
     width: 5rem;
 }
+
