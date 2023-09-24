@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
+@font-face {
+    font-family: 'PP Mori';
+    src: url(fonts/PPMori-Regular.otf) format('truetype');
+}
+
+
 .outline {
     font-family: PP Mori;
     font-size: 200px;
