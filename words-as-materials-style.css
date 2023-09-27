@@ -25,7 +25,7 @@
 }
 
 .indent {
-    padding-left: 20rem;
+    padding-left: 10rem;
 }
 
 body {
@@ -37,7 +37,14 @@ body {
 
 h1 {
     font-family: PP Eiko;
-    font-size: 250px;
+    font-size: 350px;
+    font-weight: 500;
+    line-height: 200px;
+}
+
+.heading-style-1 {
+    font-family: PP Eiko;
+    font-size: 350px;
     font-weight: 500;
     line-height: 175px;
 }
@@ -80,7 +87,7 @@ blockquote {
     padding-left: 20%;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    min-width: 800px;
+    min-width: 750px;
 }
 
 em {
@@ -136,7 +143,6 @@ li {
 }
 
 header {
-    padding-top: 3rem;
     padding-bottom: 4rem;
 }
 
@@ -157,7 +163,8 @@ header {
 
 .main {
     position: relative;
-    top: -690px;
+    top: -690px; 
+    padding-left: 10rem;
 }
 
 section {
