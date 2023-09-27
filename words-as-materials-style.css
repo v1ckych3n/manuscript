@@ -37,7 +37,7 @@ body {
 
 h1 {
     font-family: PP Eiko;
-    font-size: 400px;
+    font-size: 350px;
     font-weight: 500;
     line-height: 220px;
 }
@@ -144,6 +144,7 @@ li {
 
 header {
     padding-bottom: 4rem;
+    margin-top: -2rem;
 }
 
 .wrapper {
