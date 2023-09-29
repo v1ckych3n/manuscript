@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
+/* work on including all of the font files into CSS*/
+@font-face {
+    font-family: 'PP Mori';
+    src: url();
+}
+
+
 .outline {
     font-family: PP Mori;
     font-size: 200px;
@@ -159,11 +166,21 @@ header {
 
     width: 35%;
     padding-right: 10rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.sidebar:: -webkit- scroll-bar {
+    display: none;
+}
+
+nav {
+    height: 75vh;
 }
 
 .main {
     position: relative;
-    top: -740px; 
+    top: -525px; 
     padding-left: 3rem;
 }
 
@@ -223,3 +240,4 @@ a:hover {
     width: 5rem;
 }
 
+/*scroll to function to sections*/
