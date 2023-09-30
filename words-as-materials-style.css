@@ -6,40 +6,16 @@
     src: url();
 }
 
-
-.outline {
-    font-family: PP Mori;
-    font-size: 200px;
-    font-weight: 600;
-
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
-    -webkit-text-fill-color: transparent;
-}
-
-.accent {
-    font-family: PP Mori;
-    font-size: larger;
-    /* text-transform: uppercase; */
-
-    -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: blue;
-    -webkit-text-fill-color: transparent;
-}
-
-.blue {
-    color: blue;
-}
-
-.indent {
-    padding-left: 10rem;
-}
-
 body {
     color: black;
 
     margin-left: 3%;
     margin-right: 3%;
+}
+
+header {
+    padding-bottom: 4rem;
+    margin-top: -2rem;
 }
 
 h1 {
@@ -105,6 +81,52 @@ li {
     padding-bottom:.5rem;
 }
 
+a {
+    color: black;
+    background-color: #EAFF01;
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration-line: underline;
+
+    transition: ease-in-out;
+    transition: 0.3s;
+}
+
+/* class lists */
+
+.outline {
+    font-family: PP Mori;
+    font-size: 200px;
+    font-weight: 600;
+
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+}
+
+.accent {
+    font-family: PP Mori;
+    font-size: larger;
+    /* text-transform: uppercase; */
+
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue {
+    color: blue;
+}
+
+.indent {
+    padding-left: 10rem;
+}
+
+
 .sticky-list {
     font-family: PP Mori;
     font-size: 20px;
@@ -149,11 +171,6 @@ li {
     list-style-position: outside;
 }
 
-header {
-    padding-bottom: 4rem;
-    margin-top: -2rem;
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -161,26 +178,18 @@ header {
 
 .sidebar {
     position: sticky;
-    z-index: 100;
+    z-index: 10;
     top: 10px;
-
-    width: 35%;
-    padding-right: 10rem;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-.sidebar:: -webkit- scroll-bar {
-    display: none;
 }
 
 nav {
-    height: 75vh;
+    width: 30%;
+    padding-right: 3rem;
 }
 
 .main {
     position: relative;
-    top: -525px; 
+    top: -75vh; 
     padding-left: 3rem;
 }
 
@@ -196,21 +205,6 @@ footer {
     text-align: center;
 }
 
-a {
-    color: black;
-    background-color: #EAFF01;
-    text-decoration-line: underline;
-}
-
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration-line: underline;
-
-    transition: ease-in-out;
-    transition: 0.3s;
-}
-
 .grid-container {
     display: flex;
     column-gap: 4rem;
@@ -223,14 +217,6 @@ a:hover {
     column-gap: 4rem;
     padding-left: 40%;
     min-width: 800px;
-}
-
-.grid-item {
-    max-width: 550px;
-}
-
-.grid-container-sticky {
-    display: grid;
 }
 
 .numbers {
