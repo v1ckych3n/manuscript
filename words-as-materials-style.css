@@ -1,9 +1,21 @@
+/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
 
-/* work on including all of the font files into CSS*/
+/* local font files */
 @font-face {
     font-family: 'PP Mori';
-    src: url();
+    src: url(fonts/PPMori-SemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'PP Eiko';
+    src: url(fonts/PPEiko-Medium.otf);
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,21 +25,9 @@ body {
     margin-right: 3%;
 }
 
-header {
-    padding-bottom: 4rem;
-    margin-top: -2rem;
-}
-
 h1 {
     font-family: PP Eiko;
     font-size: 275px;
-    font-weight: 500;
-    line-height: 175px;
-}
-
-.heading-style-1 {
-    font-family: PP Eiko;
-    font-size: 350px;
     font-weight: 500;
     line-height: 175px;
 }
@@ -56,7 +56,7 @@ p {
     font-family: IBM Plex Mono;
     font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 24px;
 
     padding-bottom: 1rem;
 }
@@ -73,6 +73,23 @@ blockquote {
     min-width: 750px;
 }
 
+section {
+    width: 550px;
+    margin: auto;
+}
+
+nav {
+    width: 30%;
+    padding-right: 3rem;
+}
+
+footer {
+    width: 550px;
+    margin: auto;
+
+    text-align: center;
+}
+
 em {
     font-style: italic;
 }
@@ -81,22 +98,18 @@ li {
     padding-bottom:.5rem;
 }
 
-a {
-    color: black;
-    background-color: #EAFF01;
-    text-decoration-line: underline;
-}
-
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration-line: underline;
-
-    transition: ease-in-out;
-    transition: 0.3s;
-}
-
 /* class lists */
+
+.heading-style-1 {
+    font-family: PP Eiko;
+    font-size: 350px;
+    font-weight: 500;
+    line-height: 175px;
+}
+
+.title {
+    margin-bottom: 3rem;
+}
 
 .outline {
     font-family: PP Mori;
@@ -106,6 +119,21 @@ a:hover {
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: transparent;
+}
+
+.link {
+    color: black;
+    background-color: #EAFF01;
+    text-decoration-line: underline;
+}
+
+.link:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration-line: underline;
+
+    transition: ease-in-out;
+    transition: 0.3s;
 }
 
 .accent {
@@ -130,7 +158,7 @@ a:hover {
 .sticky-list {
     font-family: PP Mori;
     font-size: 20px;
-    font-weight: 800;
+    padding-bottom: 1.25rem;
 }
 
 .sticky-list:hover {
@@ -147,6 +175,7 @@ a:hover {
     font-weight: 500;
 
     padding-left: 3rem;
+    padding-bottom: 1.25rem;
 }
 
 .sub-list:hover {
@@ -172,37 +201,20 @@ a:hover {
 }
 
 .wrapper {
-    display: flex;
+    display: grid;
     flex-direction: column;
 }
 
 .sidebar {
     position: sticky;
-    z-index: 10;
+    z-index: 1;
     top: 10px;
-}
-
-nav {
-    width: 30%;
-    padding-right: 3rem;
 }
 
 .main {
     position: relative;
     top: -75vh; 
     padding-left: 3rem;
-}
-
-section {
-    width: 550px;
-    margin: auto;
-}
-
-footer {
-    width: 550px;
-    margin: auto;
-
-    text-align: center;
 }
 
 .grid-container {
@@ -222,6 +234,7 @@ footer {
 .numbers {
     font-family: PP Eiko;
     font-size: 150px;
+    font-weight: 500;
     text-align: right;
     width: 5rem;
 }
