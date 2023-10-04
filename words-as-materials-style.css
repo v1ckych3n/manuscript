@@ -118,10 +118,10 @@ li {
 
     color: #fff;
     text-shadow:
-        -2px -2px 0 #000, /* Top-left */
-        2px -2px 0 #000, /* Top-right */
-        -2px 2px 0 #000, /* Bottom-left */
-        2px 2px 0 #000; /* Bottom-right */
+        -1.5px -1.5px 0 #000, /* Top-left */
+        1.5px -1.5px 0 #000, /* Top-right */
+        -1.5px 1.5px 0 #000, /* Bottom-left */
+        1.5px 1.5px 0 #000; /* Bottom-right */
 }
 
 .link {
@@ -144,9 +144,12 @@ li {
     font-size: larger;
     /* text-transform: uppercase; */
 
-    -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: blue;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
+    text-shadow:
+        -1.5px -1.5px 0 blue, /* Top-left */
+        1.5px -1.5px 0 blue, /* Top-right */
+        -1.5px 1.5px 0 blue, /* Bottom-left */
+        1.5px 1.5px 0 blue; /* Bottom-right */
 }
 
 .blue {
