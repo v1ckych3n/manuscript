@@ -38,7 +38,7 @@ h2 {
     font-weight: 600;
     line-height: 70px;
 
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     min-width: 900px;
 }
@@ -116,9 +116,12 @@ li {
     font-size: 200px;
     font-weight: 600;
 
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
+    text-shadow:
+        -2px -2px 0 #000, /* Top-left */
+        2px -2px 0 #000, /* Top-right */
+        -2px 2px 0 #000, /* Bottom-left */
+        2px 2px 0 #000; /* Bottom-right */
 }
 
 .link {
@@ -158,7 +161,7 @@ li {
 .sticky-list {
     font-family: PP Mori;
     font-size: 20px;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 .sticky-list:hover {
@@ -171,11 +174,11 @@ li {
 
 .sub-list {
     font-family: IBM Plex Mono;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 
     padding-left: 3rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 .sub-list:hover {
@@ -208,13 +211,13 @@ li {
 .sidebar {
     position: sticky;
     z-index: 1;
-    top: 10px;
+    top: 0px;
 }
 
 .main {
     position: relative;
-    top: -75vh; 
-    padding-left: 3rem;
+    top: -650px; 
+    padding-left: 9rem;
 }
 
 .grid-container {
